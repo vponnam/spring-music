@@ -1,4 +1,5 @@
 ---
+buildpack: java_buildpack_offline
 applications:
 - name: spring-music
   memory: 512M
