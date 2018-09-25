@@ -7,7 +7,7 @@ applications:
   - route: spring-music-parent.apps.internal
   - route: spring-music-parent.apps-qr03.cf.ford.com
   buildpack: java_buildpack_offline
-  path: dummy
+  path: build/libs/spring-music.war
   env:
     var1: string1p
     var2: string2p
