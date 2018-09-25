@@ -1,5 +1,5 @@
 applications:
-- name: test-app
+- name: spring-music-27
   routes:
   - route: spring-music-parent.apps-pcf01v2i.cf.ford.com
   - route: spring-music-parent.apps.internal
