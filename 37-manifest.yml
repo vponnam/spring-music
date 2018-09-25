@@ -1,5 +1,5 @@
 ---
-buildpack: java_buildpack_offline
+inherit: parent.yml
 applications:
 - name: spring-music-37
   memory: 1G
