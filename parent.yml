@@ -1,10 +1,13 @@
 applications:
 - name: spring-music-27
+  instances: 1
+  memory: 1G
   routes:
   - route: spring-music-parent.apps-pcf01v2i.cf.ford.com
   - route: spring-music-parent.apps.internal
   - route: spring-music-parent.apps-qr03.cf.ford.com
   buildpack: java_buildpack_offline
+  path:
   env:
     var1: string1p
     var2: string2p
