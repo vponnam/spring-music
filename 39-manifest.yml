@@ -3,14 +3,14 @@ inherit: parent.yml
 applications:
 - name: spring-music-39
   memory: 1G
-  instances: 1
+  instances: 2
   routes:
   - route: spring-music-39.apps-pcf01v2i.cf.ford.com
   - route: spring-music-39.apps.internal
   - route: spring-music-39.apps-qr03.cf.ford.com
   path: build/libs/spring-music.war
   env:
-    var1: string1
-    var2: string2
-    bool1: true
-    bool2: false
+    var1: 37-string1
+    var2: 37string2
+    bool1: false
+    bool2: true

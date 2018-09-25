@@ -10,7 +10,7 @@ applications:
   - route: spring-music-27.apps-qr03.cf.ford.com
   path: build/libs/spring-music.war
   env:
-    var1: string1
-    var2: string2
-    bool1: true
-    bool2: false
+    var1: string-from-child-27
+    var2: 27-child-string
+    bool1: false
+    bool2: true
