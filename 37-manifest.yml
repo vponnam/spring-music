@@ -1,0 +1,16 @@
+---
+buildpack: java_buildpack_offline
+applications:
+- name: spring-music-37
+  memory: 1G
+  instances: 1
+  routes:
+  - route: spring-music-37.apps-pcf01v2i.cf.ford.com
+  - route: spring-music-37.apps.internal
+  - route: spring-music-37.apps-qr03.cf.ford.com
+  path: build/libs/spring-music.war
+  env:
+    var1: string1
+    var2: string2
+    bool1: true
+    bool2: false
