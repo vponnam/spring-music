@@ -1,5 +1,5 @@
 applications:
-- name: spring-music-27
+- name: spring-music-parent
   instances: 1
   memory: 1G
   routes:
