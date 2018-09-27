@@ -8,6 +8,7 @@ applications:
   - route: spring-music-39.apps-pcf01v2i.cf.ford.com
   - route: spring-music-39.apps.internal
   - route: spring-music-39.apps-qr03.cf.ford.com
+  buildpack: java_buildpack_offline
   path: build/libs/spring-music.war
   env:
     var1: 37-string1
